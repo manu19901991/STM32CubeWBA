@@ -1,0 +1,6 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/RTDebug/RTDebug.c:35:6:SYSTEM_DEBUG_SIGNAL_SET	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/RTDebug/RTDebug.c:42:6:SYSTEM_DEBUG_SIGNAL_RESET	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/RTDebug/RTDebug.c:49:6:SYSTEM_DEBUG_SIGNAL_TOGGLE	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/RTDebug/RTDebug.c:61:6:LINKLAYER_DEBUG_SIGNAL_SET	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/RTDebug/RTDebug.c:68:6:LINKLAYER_DEBUG_SIGNAL_RESET	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/RTDebug/RTDebug.c:75:6:LINKLAYER_DEBUG_SIGNAL_TOGGLE	0	static

@@ -1,0 +1,4 @@
+svc_ctl.c:55:6:SVCCTL_Init	1
+svc_ctl.c:72:6:SVCCTL_RegisterSvcHandler	1
+svc_ctl.c:89:6:SVCCTL_RegisterCltHandler	1
+svc_ctl.c:101:28:SVCCTL_UserEvtRx	7

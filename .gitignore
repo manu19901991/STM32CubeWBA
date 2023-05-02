@@ -1,0 +1,10 @@
+
+Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32CubeIDE/.settings/language.settings.xml
+*.launch
+*.d
+*.o
+Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32CubeIDE/.settings/stm32cubeide.project.prefs
+Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32CubeIDE/Debug/Application/User/Core/app_entry.cyclo
+Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32CubeIDE/.cproject
+Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32CubeIDE/.cproject
+Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32CubeIDE/STM32WBA52CGUX_FLASH.ld

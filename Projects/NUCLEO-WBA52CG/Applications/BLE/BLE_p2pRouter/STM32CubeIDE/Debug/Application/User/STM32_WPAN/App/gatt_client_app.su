@@ -1,0 +1,11 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:382:6:GATT_CLIENT_APP_ForwardWrite	48	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:503:20:gatt_Notification.part.0.isra	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:402:30:Event_Handler	80	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:155:6:GATT_CLIENT_APP_Init	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:179:6:GATT_CLIENT_APP_Notification	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:223:9:GATT_CLIENT_APP_Set_Conn_Handle	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:240:9:GATT_CLIENT_APP_Get_State	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:255:9:GATT_CLIENT_APP_Procedure_Gatt	48	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:245:6:GATT_CLIENT_APP_Discover_services	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:963:13:client_discover_all	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/gatt_client_app.c:503:20:gatt_Notification	0	static

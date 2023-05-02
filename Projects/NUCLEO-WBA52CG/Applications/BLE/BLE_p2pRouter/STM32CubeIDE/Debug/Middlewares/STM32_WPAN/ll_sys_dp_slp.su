@@ -1,0 +1,4 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_dp_slp.c:39:17:ll_sys_dp_slp_init	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_dp_slp.c:59:17:ll_sys_dp_slp_enter	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_dp_slp.c:102:17:ll_sys_dp_slp_exit	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/link_layer/ll_sys/src/ll_sys_dp_slp.c:149:6:ll_sys_dp_slp_wakeup_evt_clbk	8	static

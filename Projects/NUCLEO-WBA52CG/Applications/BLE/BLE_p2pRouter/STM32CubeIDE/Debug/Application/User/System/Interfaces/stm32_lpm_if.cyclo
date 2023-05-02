@@ -1,0 +1,11 @@
+stm32_lpm_if.c:346:6:PWR_EnterSleepMode	1
+stm32_lpm_if.c:360:6:PWR_ExitSleepMode	1
+stm32_lpm_if.c:172:13:Enter_Stop_Standby_Mode	4
+stm32_lpm_if.c:205:6:PWR_EnterOffMode	1
+stm32_lpm_if.c:190:13:Exit_Stop_Standby_Mode	3
+stm32_lpm_if.c:242:6:PWR_ExitOffMode	2
+stm32_lpm_if.c:328:6:PWR_ExitStopMode	1
+stm32_lpm_if.c:305:6:PWR_EnterStopMode	1
+stm32_lpm_if.c:368:10:is_boot_from_standby	3
+stm32_lpm_if.c:400:13:enter_standby_notification	1
+stm32_lpm_if.c:405:13:exit_standby_notification	1

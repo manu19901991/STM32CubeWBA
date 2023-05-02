@@ -1,0 +1,4 @@
+rf_timing_synchro.c:190:13:RFTS_Timeout_Callback	1
+rf_timing_synchro.c:200:17:event_started_callback	1
+rf_timing_synchro.c:72:19:RFTS_ReqWindow	4
+rf_timing_synchro.c:139:19:RFTS_RelWindow	1

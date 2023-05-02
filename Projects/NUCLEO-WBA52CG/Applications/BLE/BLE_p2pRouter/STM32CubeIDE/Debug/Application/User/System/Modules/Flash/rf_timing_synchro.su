@@ -1,0 +1,4 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/rf_timing_synchro.c:190:13:RFTS_Timeout_Callback	8	static,ignoring_inline_asm
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/rf_timing_synchro.c:200:17:event_started_callback	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/rf_timing_synchro.c:72:19:RFTS_ReqWindow	80	static,ignoring_inline_asm
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/rf_timing_synchro.c:139:19:RFTS_RelWindow	8	static,ignoring_inline_asm

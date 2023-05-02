@@ -1,0 +1,4 @@
+hw_aes.c:47:5:HW_AES_Enable	2
+hw_aes.c:71:6:HW_AES_SetKey	7
+hw_aes.c:136:6:HW_AES_Crypt	2
+hw_aes.c:160:6:HW_AES_Disable	2

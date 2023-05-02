@@ -1,0 +1,4 @@
+ll_sys_dp_slp.c:39:17:ll_sys_dp_slp_init	1
+ll_sys_dp_slp.c:59:17:ll_sys_dp_slp_enter	4
+ll_sys_dp_slp.c:102:17:ll_sys_dp_slp_exit	4
+ll_sys_dp_slp.c:149:6:ll_sys_dp_slp_wakeup_evt_clbk	2

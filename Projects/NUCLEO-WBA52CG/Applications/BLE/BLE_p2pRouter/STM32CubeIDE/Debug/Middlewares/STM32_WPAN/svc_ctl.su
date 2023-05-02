@@ -1,0 +1,4 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c:55:6:SVCCTL_Init	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c:72:6:SVCCTL_RegisterSvcHandler	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c:89:6:SVCCTL_RegisterCltHandler	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Middlewares/ST/STM32_WPAN/ble/svc/Src/svc_ctl.c:101:28:SVCCTL_UserEvtRx	16	static

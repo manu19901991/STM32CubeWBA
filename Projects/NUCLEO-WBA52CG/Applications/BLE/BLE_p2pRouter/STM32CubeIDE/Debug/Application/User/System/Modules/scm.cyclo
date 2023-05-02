@@ -1,0 +1,17 @@
+stm32wbaxx_ll_rcc.h:1421:22:LL_RCC_SetSysClkSource	1
+stm32wbaxx_ll_rcc.h:1541:22:LL_RCC_SetAHB5Divider	1
+stm32wbaxx_ll_pwr.h:713:22:LL_PWR_SetRegulVoltageScaling	1
+scm.c:221:13:ConfigStartPll	1
+scm.c:425:6:scm_pll_fractional_update	1
+scm.c:233:13:ConfigHwPll.constprop	2
+scm.c:410:6:scm_pll_setconfig	1
+scm.c:524:13:scm_pllconfigready	1
+scm.c:528:6:scm_setwaitstates	6
+scm.c:155:13:SwitchHse16toHse32	2
+scm.c:440:6:scm_setsystemclock	14
+scm.c:577:6:scm_hserdy_isr	7
+scm.c:350:6:scm_setup	7
+scm.c:258:6:scm_init	4
+scm.c:637:6:scm_pllrdy_isr	2
+scm.c:668:6:scm_notifyradiostate	2
+scm.c:682:6:scm_standbyexit	1

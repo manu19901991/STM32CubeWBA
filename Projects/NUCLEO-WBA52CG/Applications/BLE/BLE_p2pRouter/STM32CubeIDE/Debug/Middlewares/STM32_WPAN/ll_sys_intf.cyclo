@@ -1,0 +1,13 @@
+ll_sys_intf.c:29:6:ll_sys_init	1
+ll_sys_intf.c:40:6:ll_sys_delay_us	1
+ll_sys_intf.c:50:6:ll_sys_assert	1
+ll_sys_intf.c:60:6:ll_sys_radio_ack_ctrl	1
+ll_sys_intf.c:70:6:ll_sys_radio_wait_for_busclkrdy	1
+ll_sys_intf.c:80:6:ll_sys_get_rng	1
+ll_sys_intf.c:90:6:ll_sys_setup_radio_intr	1
+ll_sys_intf.c:101:6:ll_sys_setup_radio_sw_low_intr	1
+ll_sys_intf.c:111:6:ll_sys_radio_sw_low_intr_trigger	1
+ll_sys_intf.c:121:6:ll_sys_radio_evt_not	2
+ll_sys_intf.c:141:6:ll_sys_request_temperature	1
+ll_sys_intf.c:169:13:HostStack_Process	1
+ll_sys_intf.c:151:6:ll_sys_bg_process	3

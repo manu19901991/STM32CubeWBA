@@ -1,0 +1,4 @@
+app_debug.c:26:6:APP_DEBUG_SIGNAL_SET	1
+app_debug.c:32:6:APP_DEBUG_SIGNAL_RESET	1
+app_debug.c:39:6:APP_DEBUG_SIGNAL_TOGGLE	1
+app_debug.c:54:6:RT_DEBUG_GPIO_Init	1

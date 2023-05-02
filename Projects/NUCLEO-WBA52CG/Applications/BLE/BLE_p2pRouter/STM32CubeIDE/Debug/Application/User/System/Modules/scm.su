@@ -1,0 +1,17 @@
+../../../../../../../Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_rcc.h:1421:22:LL_RCC_SetSysClkSource	0	static
+../../../../../../../Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_rcc.h:1541:22:LL_RCC_SetAHB5Divider	0	static
+../../../../../../../Drivers/STM32WBAxx_HAL_Driver/Inc/stm32wbaxx_ll_pwr.h:713:22:LL_PWR_SetRegulVoltageScaling	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:221:13:ConfigStartPll	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:425:6:scm_pll_fractional_update	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:233:13:ConfigHwPll.constprop	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:410:6:scm_pll_setconfig	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:524:13:scm_pllconfigready	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:528:6:scm_setwaitstates	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:155:13:SwitchHse16toHse32	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:440:6:scm_setsystemclock	24	static,ignoring_inline_asm
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:577:6:scm_hserdy_isr	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:350:6:scm_setup	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:258:6:scm_init	32	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:637:6:scm_pllrdy_isr	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:668:6:scm_notifyradiostate	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/scm.c:682:6:scm_standbyexit	8	static

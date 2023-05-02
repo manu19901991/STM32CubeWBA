@@ -1,0 +1,5 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/flash_manager.c:467:13:FM_WindowAllowed_Callback	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/flash_manager.c:392:24:FM_CheckFlashManagerState	16	static,ignoring_inline_asm
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/flash_manager.c:130:17:FM_Write	24	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/flash_manager.c:172:17:FM_Erase	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/System/Modules/Flash/flash_manager.c:210:6:FM_BackgroundProcess	24	static,ignoring_inline_asm

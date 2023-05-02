@@ -1,0 +1,16 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:664:16:P2PR_notifDevInfo.isra	48	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:601:13:P2PR_Connect_Request	72	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:702:13:P2PR_notifDevInfoTable	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:111:6:P2PR_Notification	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:200:6:P2PR_APP_EvtRx	24	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:247:6:P2PR_APP_Init	32	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:282:9:P2PR_setDeviceInfo	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:296:9:P2PR_getDeviceInfo	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:310:9:P2PR_getIndexFromConnHdl	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:326:10:P2PR_getConnHdlFromIndex	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:338:9:P2PR_getWriteData	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:346:9:P2PR_setNotifLevel	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:353:9:P2PR_analyseAdvReport	136	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:543:13:P2PR_Notiffwd_SendNotification	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:530:6:P2PR_ForwardNotification	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/p2pr_app.c:576:13:P2PR_Devinfo_SendNotification	0	static

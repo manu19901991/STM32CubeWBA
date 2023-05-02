@@ -39,6 +39,7 @@
 /* Private includes ----------------------------------------------------------*/
 /* USER CODE BEGIN Includes */
 #include "stm32wbaxx_nucleo.h"
+#define L_BUFF_SIZE 256
 /* USER CODE END Includes */
 
 /* Private typedef -----------------------------------------------------------*/
@@ -232,7 +233,11 @@ static uint32_t gatt_buffer[DIVC(BLE_GATT_BUF_SIZE,4)];
 static BleStack_init_t pInitParams;
 
 /* USER CODE BEGIN PV */
-
+char l_buff[L_BUFF_SIZE];
+uint16_t l_buff_pos;
+volatile uint8_t address_filtering = 1;
+volatile uint8_t display_filter = 0;
+volatile uint8_t scan_running = 0;
 /* USER CODE END PV */
 
 /* Global variables ----------------------------------------------------------*/
@@ -259,7 +264,7 @@ static void fill_advData(uint8_t *p_adv_data, uint8_t tab_size, const uint8_t*p_
 /* External variables --------------------------------------------------------*/
 
 /* USER CODE BEGIN EV */
-
+static uint8_t analyse_ext_adv_report(hci_le_extended_advertising_report_event_rp0 *p_ext_adv_report);
 /* USER CODE END EV */
 
 /* Functions Definition ------------------------------------------------------*/
@@ -346,7 +351,7 @@ void APP_BLE_Init(void)
     }
 
     /* Start to Advertise to accept a connection */
-    APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
+//    APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
 
     /* USER CODE END APP_BLE_Init_3 */
 
@@ -553,6 +558,20 @@ SVCCTL_UserEvtFlowStatus_t SVCCTL_App_Notification(void *p_Pckt)
           /* USER CODE END HCI_EVT_LE_ADVERTISING_REPORT */
           break; /* HCI_LE_ADVERTISING_REPORT_SUBEVT_CODE */
         }
+
+        case HCI_LE_EXTENDED_ADVERTISING_REPORT_SUBEVT_CODE:
+                {
+                  hci_le_extended_advertising_report_event_rp0 *p_ext_adv_report;
+                  p_ext_adv_report = (hci_le_extended_advertising_report_event_rp0 *) p_meta_evt->data;
+                  UNUSED(p_ext_adv_report);
+                  /* USER CODE BEGIN HCI_LE_EXTENDED_ADVERTISING_REPORT_SUBEVT_CODE */
+
+                  analyse_ext_adv_report(p_ext_adv_report);
+
+                  /* USER CODE END HCI_LE_EXTENDED_ADVERTISING_REPORT_SUBEVT_CODE */
+                  break; /* HCI_LE_EXTENDED_ADVERTISING_REPORT_SUBEVT_CODE */
+                }
+
         default:
           /* USER CODE BEGIN SUBEVENT_DEFAULT */
 
@@ -1018,8 +1037,8 @@ void APP_BLE_Procedure_Gap_Central(ProcGapCentralId_t ProcGapCentralId)
   {
     case PROC_GAP_CENTRAL_SCAN_START:
     {
-      paramA = SCAN_INT_MS(500);
-      paramB = SCAN_WIN_MS(500);
+      paramA = SCAN_INT_MS(1000);
+      paramB = SCAN_WIN_MS(200);
       paramC = APP_BLE_SCANNING;
 
       break;
@@ -1041,31 +1060,46 @@ void APP_BLE_Procedure_Gap_Central(ProcGapCentralId_t ProcGapCentralId)
   {
     case PROC_GAP_CENTRAL_SCAN_START:
     {
-      status = aci_gap_start_general_discovery_proc(paramA, paramB, GAP_PUBLIC_ADDR, 0);
+//     status = aci_gap_start_general_discovery_proc(paramA, paramB, GAP_PUBLIC_ADDR, 0);
+
+       Scan_Param_Phy_t scan_parameters = {0, paramA, paramB};
+           status = hci_le_set_extended_scan_parameters(GAP_PUBLIC_ADDR, 0,0x01, (const Scan_Param_Phy_t*)&scan_parameters);
+
 
       if (status != BLE_STATUS_SUCCESS)
       {
         APP_DBG_MSG("aci_gap_start_general_discovery_proc - fail, result: 0x%02X\n", status);
       }
+
+      paramB = 20;
+     status = hci_le_set_extended_scan_enable(1, 2, paramA, paramB);
+
+     if (status != BLE_STATUS_SUCCESS)
+            {
+              APP_DBG_MSG("hci_le_set_extended_scan_enable - fail, result: 0x%02X\n", status);
+            }
+
       else
       {
         bleAppContext.Device_Connection_Status = (APP_BLE_ConnStatus_t)paramC;
-        APP_DBG_MSG("==>> aci_gap_start_general_discovery_proc - Success\n");
+        APP_DBG_MSG("==>> hci_le_set_extended_scan_enable - Success\n");
       }
 
       break;
     }/* PROC_GAP_CENTRAL_SCAN_START */
     case PROC_GAP_CENTRAL_SCAN_TERMINATE:
     {
-      status = aci_gap_terminate_gap_proc(GAP_GENERAL_DISCOVERY_PROC);
+//      status = aci_gap_terminate_gap_proc(GAP_GENERAL_DISCOVERY_PROC);
+
+    	   status = hci_le_set_extended_scan_enable(0, 2, paramA, paramB);
       if (status != BLE_STATUS_SUCCESS)
       {
-        APP_DBG_MSG("aci_gap_terminate_gap_proc - fail, result: 0x%02X\n",status);
+        APP_DBG_MSG("scan disable fail - fail, result: 0x%02X\n",status);
       }
       else
       {
         bleAppContext.Device_Connection_Status = (APP_BLE_ConnStatus_t)paramC;
-        APP_DBG_MSG("==>> aci_gap_terminate_gap_proc - Success\n");
+        APP_DBG_MSG("==>> scan disable success - Success\n");
       }
       break;
     }/* PROC_GAP_CENTRAL_SCAN_TERMINATE */
@@ -1080,12 +1114,18 @@ void APP_BLE_Procedure_Gap_Central(ProcGapCentralId_t ProcGapCentralId)
 void APP_BLE_Key_Button1_Action(void)
 {
   BSP_LED_On(LED_BLUE);
+
+	 APP_BLE_Procedure_Gap_Peripheral( PROC_GAP_PERIPH_ADVERTISE_STOP);
+
   APP_BLE_Procedure_Gap_Central(PROC_GAP_CENTRAL_SCAN_START);
   return;
 }
 
 void APP_BLE_Key_Button2_Action(void)
 {
+	 BSP_LED_On(LED_RED);
+	 APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
+	 APP_BLE_Procedure_Gap_Central(PROC_GAP_CENTRAL_SCAN_TERMINATE);
   return;
 }
 
@@ -1119,7 +1159,7 @@ uint8_t HOST_BLE_Init(void)
   pInitParams.bleStartRamAddress_GATT = (uint8_t*)gatt_buffer;
   pInitParams.total_buffer_size_GATT  = BLE_GATT_BUF_SIZE;
   pInitParams.debug                   = 0x10;/*static random address generation*/
-  pInitParams.options                 = 0x0000;
+  pInitParams.options                 = BLE_OPTIONS_EXTENDED_ADV;
   return_status = BleStack_Init(&pInitParams);
 /* USER CODE BEGIN HOST_BLE_Init */
 
@@ -1306,15 +1346,15 @@ static void Ble_Hci_Gap_Gatt_Init(void)
   }
 
   /* Initialize Default PHY */
-  ret = hci_le_set_default_phy(0x00, HCI_TX_PHYS_LE_2M_PREF, HCI_RX_PHYS_LE_2M_PREF);
-  if (ret != BLE_STATUS_SUCCESS)
-  {
-    APP_DBG_MSG("  Fail   : hci_le_set_default_phy command, result: 0x%02X\n", ret);
-  }
-  else
-  {
-    APP_DBG_MSG("  Success: hci_le_set_default_phy command\n");
-  }
+//  ret = hci_le_set_default_phy(0x00, HCI_TX_PHYS_LE_2M_PREF, HCI_RX_PHYS_LE_2M_PREF);
+//  if (ret != BLE_STATUS_SUCCESS)
+//  {
+//    APP_DBG_MSG("  Fail   : hci_le_set_default_phy command, result: 0x%02X\n", ret);
+//  }
+//  else
+//  {
+//    APP_DBG_MSG("  Success: hci_le_set_default_phy command\n");
+//  }
 
   /**
    * Initialize IO capability
@@ -1637,5 +1677,123 @@ void NVMCB_Store( const uint32_t* ptr, uint32_t size )
                BLE_NvmCallback);
 }
 /* USER CODE BEGIN FD_WRAP_FUNCTIONS */
+static uint8_t analyse_ext_adv_report(hci_le_extended_advertising_report_event_rp0 *p_ext_adv_report)
+{
+  uint8_t status;
+
+  if ((display_filter != 0) && HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0010))
+  {
+    status = 1;
+  }
+  else
+  {
+    status = 0;
+
+    l_buff_pos = 0;
+    memset(&l_buff[l_buff_pos], 0, L_BUFF_SIZE);
+
+    l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos,
+                            "%02X:%02X:%02X:%02X:%02X:%02X | "
+                            ,p_ext_adv_report->Address[5], p_ext_adv_report->Address[4]
+                            ,p_ext_adv_report->Address[3] ,p_ext_adv_report->Address[2]
+                            ,p_ext_adv_report->Address[1] ,p_ext_adv_report->Address[0]);
+
+    if (HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0010))
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE, "LEGACY   |");
+    }
+    else
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE, "EXTENDED |");
+    }
+
+    l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "%4d | ",(int8_t)p_ext_adv_report->RSSI );
+
+    if (HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0001))
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "CONN |");
+    }
+    else
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "     |");
+    }
+
+    if (HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0002))
+    {
+      if (HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0008))
+      {
+        l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "SCAN RSP |");
+      }
+      else
+      {
+        l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "SCAN     |");
+      }
+    }
+    else
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "         |");
+    }
+
+    l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "%3d | ",p_ext_adv_report->Data_Length );
+
+    if (p_ext_adv_report->Advertising_SID != 0xFF)
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "%2d | ",p_ext_adv_report->Advertising_SID );
+    }
+
+    if (HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0020))
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "more data   | ");
+    }
+    else if (HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0040))
+    {
+      l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "trunc data | ");
+    }
+    else
+    {
+      /* Nothing to do */
+    }
+
+//    if( !(HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0010)) && /* extended */
+//        (HAL_IS_BIT_SET(p_ext_adv_report->Event_Type, 0x0001)) )   /* connectable */
+//    {
+//      uint8_t i, adtype, adlength;
+//
+//      i = 0;
+//      while ( i < p_ext_adv_report->Data_Length )
+//      {
+//        adlength = p_ext_adv_report->Data[i];
+//        adtype = p_ext_adv_report->Data[i + 1];
+//
+//        if ( adtype == AD_TYPE_MANUFACTURER_SPECIFIC_DATA )
+//        {
+//          if ( (adlength >= 7) &&
+//               (p_ext_adv_report->Data[i + 4] == 0x02) && /* blueST v2*/
+//               (p_ext_adv_report->Data[i + 6] == 0x83))   /* p2pServer application */
+//          {
+//            l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "p2pServer detected, address recorded to connect. | ");
+//
+//            bleAppContext.a_deviceServerExtendedBdAddr[0] = p_ext_adv_report->Address[0];
+//            bleAppContext.a_deviceServerExtendedBdAddr[1] = p_ext_adv_report->Address[1];
+//            bleAppContext.a_deviceServerExtendedBdAddr[2] = p_ext_adv_report->Address[2];
+//            bleAppContext.a_deviceServerExtendedBdAddr[3] = p_ext_adv_report->Address[3];
+//            bleAppContext.a_deviceServerExtendedBdAddr[4] = p_ext_adv_report->Address[4];
+//            bleAppContext.a_deviceServerExtendedBdAddr[5] = p_ext_adv_report->Address[5];
+//            bleAppContext.deviceServerExtendedAddressType = p_ext_adv_report->Address_Type;
+//
+//            bleAppContext.deviceServerFound = 0x01;
+//          }
+//        }
+//        i += adlength + 1;
+//      }
+//    }
+
+    l_buff_pos += snprintf(&l_buff[l_buff_pos], L_BUFF_SIZE - l_buff_pos, "\n");
+
+    APP_DBG_MSG("%s",l_buff);
+  }
+
+  return status;
+}
 
 /* USER CODE END FD_WRAP_FUNCTIONS */

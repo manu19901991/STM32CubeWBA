@@ -1,0 +1,17 @@
+app_ble.c:1547:13:Switch_OFF_GPIO	1
+app_ble.c:1424:13:Ble_UserEvtRx	4
+app_ble.c:1500:13:BleStack_Process_BG	2
+app_ble.c:1525:13:BLE_ResumeFlowProcessCallback	1
+app_ble.c:1536:13:BLE_NvmCallback	2
+app_ble.c:271:6:APP_BLE_Init	26
+app_ble.c:771:22:APP_BLE_Get_Server_Connection_Status	1
+app_ble.c:776:22:APP_BLE_Get_Client_Connection_Status	2
+app_ble.c:792:6:APP_BLE_Procedure_Gap_General	11
+app_ble.c:877:6:APP_BLE_Procedure_Gap_Peripheral	13
+app_ble.c:1025:6:APP_BLE_Procedure_Gap_Central	6
+app_ble.c:370:28:SVCCTL_App_Notification	40
+app_ble.c:1114:6:APP_BLE_Key_Button1_Action	1
+app_ble.c:1124:6:APP_BLE_Key_Button2_Action	1
+app_ble.c:1132:6:APP_BLE_Key_Button3_Action	1
+app_ble.c:1630:9:BLECB_Indication	4
+app_ble.c:1670:6:NVMCB_Store	1

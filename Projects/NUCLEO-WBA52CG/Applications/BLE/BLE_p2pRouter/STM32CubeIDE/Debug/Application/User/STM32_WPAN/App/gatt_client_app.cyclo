@@ -1,0 +1,11 @@
+gatt_client_app.c:382:6:GATT_CLIENT_APP_ForwardWrite	6
+gatt_client_app.c:503:20:gatt_Notification.part.0.isra	1
+gatt_client_app.c:402:30:Event_Handler	56
+gatt_client_app.c:155:6:GATT_CLIENT_APP_Init	1
+gatt_client_app.c:179:6:GATT_CLIENT_APP_Notification	4
+gatt_client_app.c:223:9:GATT_CLIENT_APP_Set_Conn_Handle	2
+gatt_client_app.c:240:9:GATT_CLIENT_APP_Get_State	1
+gatt_client_app.c:255:9:GATT_CLIENT_APP_Procedure_Gatt	12
+gatt_client_app.c:245:6:GATT_CLIENT_APP_Discover_services	1
+gatt_client_app.c:963:13:client_discover_all	1
+gatt_client_app.c:503:20:gatt_Notification	2

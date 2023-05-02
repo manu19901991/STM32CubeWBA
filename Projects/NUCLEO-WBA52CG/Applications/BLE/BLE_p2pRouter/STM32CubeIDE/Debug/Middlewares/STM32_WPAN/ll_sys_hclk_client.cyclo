@@ -1,0 +1,2 @@
+ll_sys_hclk_client.c:31:6:ll_sys_radio_hclk_ctrl_init	1
+ll_sys_hclk_client.c:42:6:ll_sys_radio_hclk_ctrl_req	3

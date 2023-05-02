@@ -1,0 +1,5 @@
+flash_manager.c:467:13:FM_WindowAllowed_Callback	1
+flash_manager.c:392:24:FM_CheckFlashManagerState	8
+flash_manager.c:130:17:FM_Write	7
+flash_manager.c:172:17:FM_Erase	6
+flash_manager.c:210:6:FM_BackgroundProcess	22

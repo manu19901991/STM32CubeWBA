@@ -1,0 +1,7 @@
+usart_if.c:320:13:UsartIf_TxCpltCallback	1
+usart_if.c:354:18:get_IRQn_Type_from_DMA_HandleTypeDef	8
+usart_if.c:115:25:UART_Init	1
+usart_if.c:145:25:UART_DeInit	6
+usart_if.c:214:25:UART_StartRx	2
+usart_if.c:334:13:UsartIf_RxCpltCallback	1
+usart_if.c:240:25:UART_TransmitDMA	4

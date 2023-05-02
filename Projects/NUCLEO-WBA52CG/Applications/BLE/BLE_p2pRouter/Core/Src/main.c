@@ -398,7 +398,7 @@ void MX_RNG_Init(void)
 {
 
   /* USER CODE BEGIN RNG_Init 0 */
-  memset(&hrng, 0, sizeof(hrng));
+//  memset(&hrng, 0, sizeof(hrng));
   /* USER CODE END RNG_Init 0 */
 
   /* USER CODE BEGIN RNG_Init 1 */
@@ -413,7 +413,7 @@ void MX_RNG_Init(void)
   /* USER CODE BEGIN RNG_Init 2 */
 
   /* Disable RNG peripheral and its RCC clock */
-  HW_RNG_Disable( );
+//  HW_RNG_Disable( );
 
   /* USER CODE END RNG_Init 2 */
 

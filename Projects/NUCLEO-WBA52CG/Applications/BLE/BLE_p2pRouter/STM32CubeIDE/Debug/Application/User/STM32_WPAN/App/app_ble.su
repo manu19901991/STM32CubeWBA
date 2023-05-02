@@ -1,0 +1,17 @@
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1547:13:Switch_OFF_GPIO	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1424:13:Ble_UserEvtRx	16	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1500:13:BleStack_Process_BG	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1525:13:BLE_ResumeFlowProcessCallback	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1536:13:BLE_NvmCallback	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:271:6:APP_BLE_Init	80	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:771:22:APP_BLE_Get_Server_Connection_Status	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:776:22:APP_BLE_Get_Client_Connection_Status	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:792:6:APP_BLE_Procedure_Gap_General	32	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:877:6:APP_BLE_Procedure_Gap_Peripheral	48	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1025:6:APP_BLE_Procedure_Gap_Central	32	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:370:28:SVCCTL_App_Notification	40	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1114:6:APP_BLE_Key_Button1_Action	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1124:6:APP_BLE_Key_Button2_Action	8	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1132:6:APP_BLE_Key_Button3_Action	0	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1630:9:BLECB_Indication	32	static
+C:/Users/marciasm/OneDrive - STMicroelectronics/Documents/GitHub/STM32CubeWBA/Projects/NUCLEO-WBA52CG/Applications/BLE/BLE_p2pRouter/STM32_WPAN/App/app_ble.c:1670:6:NVMCB_Store	0	static
