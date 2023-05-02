@@ -1091,7 +1091,7 @@ void APP_BLE_Procedure_Gap_Central(ProcGapCentralId_t ProcGapCentralId)
     {
 //      status = aci_gap_terminate_gap_proc(GAP_GENERAL_DISCOVERY_PROC);
 
-    	   status = hci_le_set_extended_scan_enable(0, 2, paramA, paramB);
+    	   status = hci_le_set_extended_scan_enable(0, 0, paramA, paramB);
       if (status != BLE_STATUS_SUCCESS)
       {
         APP_DBG_MSG("scan disable fail - fail, result: 0x%02X\n",status);
@@ -1115,8 +1115,10 @@ void APP_BLE_Key_Button1_Action(void)
 {
   BSP_LED_On(LED_BLUE);
 
-	 APP_BLE_Procedure_Gap_Peripheral( PROC_GAP_PERIPH_ADVERTISE_STOP);
+//	 APP_BLE_Procedure_Gap_Peripheral( PROC_GAP_PERIPH_ADVERTISE_STOP);
+//HAL_Delay(2000);
 
+//  hci_le_clear_advertising_sets();
   APP_BLE_Procedure_Gap_Central(PROC_GAP_CENTRAL_SCAN_START);
   return;
 }
@@ -1124,8 +1126,9 @@ void APP_BLE_Key_Button1_Action(void)
 void APP_BLE_Key_Button2_Action(void)
 {
 	 BSP_LED_On(LED_RED);
+//	 hci_le_set_advertising_enable( 1 );
+//	 APP_BLE_Procedure_Gap_Central(PROC_GAP_CENTRAL_SCAN_TERMINATE);
 	 APP_BLE_Procedure_Gap_Peripheral(PROC_GAP_PERIPH_ADVERTISE_START_FAST);
-	 APP_BLE_Procedure_Gap_Central(PROC_GAP_CENTRAL_SCAN_TERMINATE);
   return;
 }
 
