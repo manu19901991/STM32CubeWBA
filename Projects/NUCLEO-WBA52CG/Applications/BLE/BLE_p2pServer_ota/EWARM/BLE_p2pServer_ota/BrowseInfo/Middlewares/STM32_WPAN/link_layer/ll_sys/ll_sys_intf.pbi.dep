@@ -1,0 +1,23 @@
+C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\BLE_p2pServer_ota\BrowseInfo\Middlewares\STM32_WPAN\link_layer\ll_sys\ll_sys_intf.pbi: \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Middlewares\ST\STM32_WPAN\link_layer\ll_sys\src\ll_sys_intf.c \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_sys\inc\linklayer_plat.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Full.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_sys\inc\ll_sys.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\ll_intf.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\common_types.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\_40nm_reg_files\DWC_ble154combo.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\bsp.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\config\ble_basic\ll_fw_config.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\mem_intf.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\os_wrapper.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\hci.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\ll_intf.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_iccarm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Middlewares\ST\STM32_WPAN\link_layer\ll_cmd_lib\inc\event_manager.h

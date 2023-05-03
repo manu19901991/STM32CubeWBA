@@ -43,6 +43,8 @@ typedef enum
   APP_BLE_CONNECTED_CLIENT,
   APP_BLE_ADV_FAST,
   APP_BLE_ADV_LP,
+  APP_BLE_SCANNING,
+
 
 } APP_BLE_ConnStatus_t;
 
@@ -137,10 +139,13 @@ void APP_BLE_Init(void);
 APP_BLE_ConnStatus_t APP_BLE_Get_Server_Connection_Status(void);
 void APP_BLE_Procedure_Gap_General(ProcGapGeneralId_t ProcGapGeneralId);
 void APP_BLE_Procedure_Gap_Peripheral(ProcGapPeripheralId_t ProcGapPeripheralId);
+void APP_BLE_Procedure_Gap_Central(ProcGapCentralId_t ProcGapCentralId);
 /* USER CODE BEGIN EF */
 void APP_BLE_Key_Button1_Action(void);
 void APP_BLE_Key_Button2_Action(void);
 void APP_BLE_Key_Button3_Action(void);
+
+
 
 /* USER CODE END EF */
 

@@ -1,0 +1,51 @@
+C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\BLE_p2pServer_ota\BrowseInfo\Drivers\STM32WBAxx_HAL_Driver\stm32wbaxx_hal_uart.pbi: \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Drivers\STM32WBAxx_HAL_Driver\Src\stm32wbaxx_hal_uart.c \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\Core\Inc\stm32wbaxx_hal_conf.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_dma.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_def.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32WBAxx\Include\stm32wbaxx.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32WBAxx\Include\stm32wba52xx.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Include\core_cm33.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stdint.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ycheck.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\yvals.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Defaults.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Config_Full.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_Product.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_version.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_compiler.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Include\cmsis_iccarm.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\aarch32\iccarm_builtin.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Include\mpu_armv8.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\CMSIS\Device\ST\STM32WBAxx\Include\system_stm32wbaxx.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\stddef.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\ysizet.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\math.h \
+  C:\Program\ Files\IAR\ Systems\Embedded\ Workbench\ 9.0\arm\inc\c\DLib_float_setup.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_dma_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_adc.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_ll_adc.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_adc_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_cortex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_crc.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_crc_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_exti.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_flash.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_flash_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_gpio.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_gpio_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_icache.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_pwr.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_pwr_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_ramcfg.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rcc.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_ll_rcc.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rcc_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rng.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rng_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rtc.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_rtc_ex.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_uart.h \
+  C:\Users\marciasm\OneDrive\ -\ STMicroelectronics\Documents\GitHub\STM32CubeWBA\Projects\NUCLEO-WBA52CG\Applications\BLE\BLE_p2pServer_ota\EWARM\..\..\..\..\..\..\Drivers\STM32WBAxx_HAL_Driver\Inc\stm32wbaxx_hal_uart_ex.h
